@@ -29,10 +29,13 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 }
 
 dependencies {
+
+    implementation libs.maps.mobile
 
     implementation libs.github.glide
 

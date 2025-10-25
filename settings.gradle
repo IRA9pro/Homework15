@@ -16,8 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://maven.google.com/"
+        }
+        maven { url "https://maven.pkg.github.com/yandex/mapkit-android-demo" }
     }
 }
 
 rootProject.name = "Homework15"
 include ':app'
+
